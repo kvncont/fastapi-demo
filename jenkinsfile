@@ -42,7 +42,7 @@ pipeline{
         }
         stage("Promote Pro"){
             steps{
-                sh ""
+                echo "Call Promotion Job"
             }
         }
     }
